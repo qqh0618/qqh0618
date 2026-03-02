@@ -50,7 +50,7 @@ Here are my latest works on Federated Learning:
 
 **Journal:** IEEE Transactions on Industrial Informatics.
 
-**Abstarct:**
+> **Abstarct:**
 Federatedlearning has garnered significant attention in the Internet of Things and healthcare applications due to its ability to train a shared global model across distributed clients. However, imbalanced data distribution leads to model discrepancies among clients. Most existing methods adopt implicit alignment strategies while overlooking explicit modeling of geometric and directional discrepancies in feature representations, which undermines local model optimization. To address this issue, we propose a method of representation deviation alignment in federated learning, which projects features onto the principal feature space to measure deviations between local and global feature representations explicitly. Specifically, Federated learning with Representation Deviation Alignment (FedRDA) employs a feature encoder to extract compact features and construct unbiased principal feature spaces for global and local models. Then, the residual projection in the feature space serves as a quantitative measure of the representation deviation, effectively capturing the latent direction differences between models. Besides, we introduce a representation consistency alignment strategy, which ensures that the distribution of local client features becomes more uniform within the global feature space. Extensive experiments on SVHN, CIFAR-10, CIFAR-100, Tiny-ImageNet, and GC10 demonstrate that FedRDA effectively reduces the classifier bias caused by representational differences.
 
 #### 2. A Class-Aware Calibration and Balanced Consistency Weighting Framework for Federated Semi-Supervised Learning
